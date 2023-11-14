@@ -1,0 +1,11 @@
+.dark :is(aside, header, main, footer) {
+    background-color: black;
+}
+
+.dark * {
+    color: white;
+}
+
+.dark :is(aside, header, footer) {
+    border-color: white;
+}

@@ -1,0 +1,32 @@
+.close,
+.close~* {
+    --aside-weight: 75px;
+}
+
+.close .aside-link span {
+    opacity: 0;
+}
+
+.close .aside-top-title {
+    display: none;
+}
+
+.close .close-title {
+    display: block;
+}
+
+.close .aside-bottom-btn {
+   transform: translate(-130px);
+   /* opacity: 0; */
+}
+.close .aside-bottom-btn span{
+   /* transform: translate(-160px); */
+   opacity: 0;
+}
+
+.close .aside-bottom-logout span {
+   opacity: 0;
+}
+aside{
+   padding-left: 0px;
+}

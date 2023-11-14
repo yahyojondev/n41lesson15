@@ -1,0 +1,75 @@
+main {
+    left: var(--aside-weight);
+    top: var(--header-height);
+    width: var(--header-width);
+    height: calc(100vh - var(--header-height));
+}
+
+table {
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: none;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+th,
+td {
+    height: 45px;
+}
+
+td {
+    padding-left: 40px;
+    text-align: start;
+    color: #414141;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.th-1 {
+    padding-left: 20px;
+}
+
+th {
+    padding-left: 45px;
+    text-align: start;
+}
+
+th {
+    padding-bottom: 30px;
+    width: 250px;
+    height: 19.067px;
+    flex-shrink: 0;
+    color: #878787;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.row {
+    background-color: #EEF2F5;
+}
+
+.img-text-table {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.profits {
+    color: #00CA39;
+}
+
+.losses {
+    color: #E44067;
+}
